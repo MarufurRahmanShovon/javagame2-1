@@ -80,7 +80,7 @@ public class MainGame extends GameApplication {
                 isForward=true;
                 player.setView(FXGL.getAssetLoader().loadTexture("player2.gif")); //changing the player image
 
-                if(player.getX() < 500 || player.getX()>2400){ //right bound for player///*this is not working as we expected*//
+                if(player.getX() < 500 || background.getX() <= -2400 && player.getX()<1050){ //right bound for player///*this is not working as we expected*//
                     player.translateX(4);
                 }
 
@@ -89,6 +89,7 @@ public class MainGame extends GameApplication {
                     coin.translateX(-4);
                     coin1.translateX(-4);
                 }
+
                 if(!isCoinOntained
                         && coin.getCenter().getX()-player.getCenter().getX() <= 250
                         && coin.getCenter().getX()-player.getCenter().getX() >= -30){

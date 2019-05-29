@@ -1,0 +1,965 @@
+13:53:41.207 [main                     ] DEBUG GameApplication      - Logger initialized
+13:53:41.226 [main                     ] DEBUG GameApplication      - Logging settings
+Title: NewGame
+Version: 0.0
+Width: 1200
+Height: 700
+Fullscreen: false
+Intro: false
+Menus: false
+Profiling: false
+Single step:false
+App Mode: DEVELOPER
+Menu Key: ESCAPE
+Stage Style: DECORATED
+Scene Factory: class com.almasb.fxgl.app.SceneFactory
+Dialog Factory: class com.almasb.fxgl.ui.FXGLDialogFactory
+UI Factory: class com.almasb.fxgl.ui.FXGLUIFactory
+
+13:53:41.865 [JavaFX Application Thread] DEBUG Engine               - Initializing FXGL
+13:53:41.875 [JavaFX Application Thread] INFO  Engine               - FXGL-11.2-beta on DESKTOP
+13:53:41.876 [JavaFX Application Thread] INFO  Engine               - Source code and latest versions at: https://github.com/AlmasB/FXGL
+13:53:41.876 [JavaFX Application Thread] INFO  Engine               -              Join the FXGL chat at: https://gitter.im/AlmasB/FXGL
+13:53:41.881 [JavaFX Application Thread] DEBUG Engine               - Adding new engine service: class com.almasb.fxgl.audio.AudioPlayer
+13:53:41.883 [JavaFX Application Thread] DEBUG Engine               - Adding new engine service: class com.almasb.fxgl.notification.impl.NotificationServiceProvider
+13:53:41.884 [JavaFX Application Thread] DEBUG Engine               - Adding new engine service: class com.almasb.fxgl.achievement.AchievementManager
+13:53:41.885 [JavaFX Application Thread] DEBUG Engine               - Adding new engine service: class com.almasb.fxgl.dev.DevService
+13:53:41.911 [JavaFX Application Thread] DEBUG SaveLoadManager      - Checking profiles dir: profiles/
+13:53:41.915 [JavaFX Application Thread] DEBUG FS                   - Loaded MobileFSService
+13:53:41.916 [JavaFX Application Thread] DEBUG Engine               - Loading localizations
+13:53:41.933 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/properties/languages/english.properties
+13:53:41.939 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/properties/languages/french.properties
+13:53:41.941 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/properties/languages/german.properties
+13:53:41.944 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/properties/languages/russian.properties
+13:53:41.947 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/properties/languages/hungarian.properties
+13:53:41.950 [JavaFX Application Thread] DEBUG Engine               - Registering font factories
+13:53:41.951 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/fonts/VarelaRound-Regular.ttf
+13:53:42.383 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/fonts/Abel-Regular.ttf
+13:53:42.400 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/fonts/lucida_console.ttf
+13:53:42.420 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/fonts/Courier-Prime.ttf
+13:53:42.438 [JavaFX Application Thread] DEBUG Engine               - Setting UI factory
+13:53:42.616 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+13:53:42.824 [JavaFX Application Thread] DEBUG MainWindow           - Creating a JavaFX scene
+13:53:42.923 [JavaFX Application Thread] DEBUG MainWindow           - Target settings size: 1200.0 x 700.0
+13:53:42.923 [JavaFX Application Thread] DEBUG MainWindow           - Scaled scene size:    1200.0 x 700.0
+13:53:42.923 [JavaFX Application Thread] DEBUG MainWindow           - Scaled ratio: (1.0, 1.0)
+13:53:42.924 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/css/fxgl_dark.css
+13:53:42.926 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+13:53:42.926 [JavaFX Application Thread] DEBUG MainWindow           - StartupScene -> StartupScene
+13:53:42.929 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/textures/fxgl_icon.png
+13:53:42.968 [JavaFX Application Thread] DEBUG MainWindow           - Opening main window
+13:53:43.287 [JavaFX Application Thread] DEBUG MainWindow           - Window border size: (16.0, 39.0)
+13:53:43.287 [JavaFX Application Thread] DEBUG MainWindow           - Scaled size: 1200.0 x 700.0
+13:53:43.287 [JavaFX Application Thread] DEBUG MainWindow           - Scaled ratio: (1.0, 1.0)
+13:53:43.288 [JavaFX Application Thread] DEBUG MainWindow           - Scene size: 1200.0 x 700.0
+13:53:43.288 [JavaFX Application Thread] DEBUG MainWindow           - Stage size: 1216.0 x 739.0
+13:53:43.423 [FXGL Background Thread 1 ] DEBUG Engine               - Loading FXGL system data
+13:53:43.430 [FXGL Background Thread 1 ] DEBUG MobileFSService      - Reading from: E:\JavaFX\Shovon\javagame2-1\javafx-workshop\system\fxgl.bundle
+13:53:43.446 [FXGL Background Thread 1 ] DEBUG Engine               - Bundle FXGL: {}
+13:53:43.446 [FXGL Background Thread 1 ] DEBUG Engine               - Initializing application scenes
+13:53:43.452 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+13:53:43.495 [FXGL Background Thread 1 ] DEBUG GameWorld            - Game world initialized
+13:53:43.605 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Physics world initialized: appHeight=700, physics.ppm=50.0
+13:53:43.606 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+13:53:43.609 [FXGL Background Thread 1 ] DEBUG GameScene            - Game scene initialized: 1200x700
+13:53:43.657 [FXGL Background Thread 1 ] DEBUG Input                - Registered new binding: Pause - Esc
+13:53:43.657 [FXGL Background Thread 1 ] DEBUG Engine               - Application scenes initialized
+13:53:43.663 [JavaFX Application Thread] DEBUG Engine               - Running preInit()
+13:53:43.663 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Go right - Right
+13:53:43.664 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Go left - Left
+13:53:43.664 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Jump - Space
+13:53:43.665 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Screenshot - P
+13:53:43.666 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Dev Options - 1
+13:53:43.667 [JavaFX Application Thread] DEBUG Input                - Registered new binding: System info dump - CTRL+9
+13:53:43.667 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Restart - CTRL+R
+13:53:43.668 [JavaFX Application Thread] DEBUG Engine               - generateDefaultProfile()
+13:53:43.668 [JavaFX Application Thread] DEBUG Engine               - Creating default profile
+13:53:43.669 [JavaFX Application Thread] DEBUG EventBus             - Firing event: SaveEvent
+13:53:43.684 [JavaFX Application Thread] DEBUG Engine               - Logging environment variables
+13:53:43.684 [JavaFX Application Thread] DEBUG Engine               - achievementStores: []
+13:53:43.685 [JavaFX Application Thread] DEBUG Engine               - cSS: fxgl_dark.css
+13:53:43.685 [JavaFX Application Thread] DEBUG Engine               - language: ObjectProperty [value: ENGLISH]
+13:53:43.685 [JavaFX Application Thread] DEBUG Engine               - isCloseConfirmation: true
+13:53:43.685 [JavaFX Application Thread] DEBUG Engine               - isProfilingEnabled: false
+13:53:43.685 [JavaFX Application Thread] DEBUG Engine               - soundNotification: core/notification.wav
+13:53:43.685 [JavaFX Application Thread] DEBUG Engine               - pixelsPerMeter: 50.0
+13:53:43.686 [JavaFX Application Thread] DEBUG Engine               - overlayRoot: Group@4a2596ad
+13:53:43.686 [JavaFX Application Thread] DEBUG Engine               - soundMenuBack: menu/back.wav
+13:53:43.686 [JavaFX Application Thread] DEBUG Engine               - appIcon: fxgl_icon.png
+13:53:43.686 [JavaFX Application Thread] DEBUG Engine               - isFullScreenAllowed: false
+13:53:43.686 [JavaFX Application Thread] DEBUG Engine               - isIntroEnabled: false
+13:53:43.686 [JavaFX Application Thread] DEBUG Engine               - fontMono: lucida_console.ttf
+13:53:43.686 [JavaFX Application Thread] DEBUG Engine               - soundMenuSelect: menu/select.wav
+13:53:43.687 [JavaFX Application Thread] DEBUG Engine               - height: 700
+13:53:43.687 [JavaFX Application Thread] DEBUG Engine               - isSingleStep: false
+13:53:43.687 [JavaFX Application Thread] DEBUG Engine               - fontGame: Abel-Regular.ttf
+13:53:43.687 [JavaFX Application Thread] DEBUG Engine               - menuKey: ESCAPE
+13:53:43.687 [JavaFX Application Thread] DEBUG Engine               - versionCheckDays: 7
+13:53:43.687 [JavaFX Application Thread] DEBUG Engine               - masterTimer: com.almasb.fxgl.time.Timer@4130e07f
+13:53:43.687 [JavaFX Application Thread] DEBUG Engine               - configClass: Optional.empty
+13:53:43.688 [JavaFX Application Thread] DEBUG Engine               - version: 0.0
+13:53:43.688 [JavaFX Application Thread] DEBUG Engine               - fullScreen: BooleanProperty [value: false]
+13:53:43.688 [JavaFX Application Thread] DEBUG Engine               - dialogFactory: com.almasb.fxgl.ui.FXGLDialogFactory@1c6a055a
+13:53:43.688 [JavaFX Application Thread] DEBUG Engine               - applicationMode: DEVELOPER
+13:53:43.688 [JavaFX Application Thread] DEBUG Engine               - urlGoogleForms: https://goo.gl/forms/6wrMnOBxTE1fEpOy2
+13:53:43.688 [JavaFX Application Thread] DEBUG Engine               - isMenuEnabled: false
+13:53:43.688 [JavaFX Application Thread] DEBUG Engine               - urlPOM: https://raw.githubusercontent.com/AlmasB/FXGL/master/pom.xml
+13:53:43.688 [JavaFX Application Thread] DEBUG Engine               - profileName: user.profile
+13:53:43.689 [JavaFX Application Thread] DEBUG Engine               - notificationViewClass: class com.almasb.fxgl.notification.view.XboxNotificationView
+13:53:43.689 [JavaFX Application Thread] DEBUG Engine               - sceneFactory: com.almasb.fxgl.app.SceneFactory@290808a4
+13:53:43.689 [JavaFX Application Thread] DEBUG Engine               - dataFileExt: .dat
+13:53:43.689 [JavaFX Application Thread] DEBUG Engine               - stageStyle: DECORATED
+13:53:43.689 [JavaFX Application Thread] DEBUG Engine               - isManualResizeEnabled: false
+13:53:43.689 [JavaFX Application Thread] DEBUG Engine               - title: NewGame
+13:53:43.689 [JavaFX Application Thread] DEBUG Engine               - credits: []
+13:53:43.689 [JavaFX Application Thread] DEBUG Engine               - uIFactory: com.almasb.fxgl.ui.FXGLUIFactory@44da572a
+13:53:43.690 [JavaFX Application Thread] DEBUG Engine               - fontText: Courier-Prime.ttf
+13:53:43.690 [JavaFX Application Thread] DEBUG Engine               - isExperimentalTiledLargeMap: false
+13:53:43.690 [JavaFX Application Thread] DEBUG Engine               - secondsIn24h: 60
+13:53:43.690 [JavaFX Application Thread] DEBUG Engine               - soundMenuPress: menu/press.wav
+13:53:43.690 [JavaFX Application Thread] DEBUG Engine               - urlGithub: https://github.com/AlmasB/FXGL
+13:53:43.690 [JavaFX Application Thread] DEBUG Engine               - profileDir: profiles/
+13:53:43.690 [JavaFX Application Thread] DEBUG Engine               - urlLeaderboard: http://fxgl-top.herokuapp.com/
+13:53:43.691 [JavaFX Application Thread] DEBUG Engine               - saveDir: saves/
+13:53:43.691 [JavaFX Application Thread] DEBUG Engine               - engineServices: [class com.almasb.fxgl.audio.AudioPlayer, class com.almasb.fxgl.notification.impl.NotificationServiceProvider, class com.almasb.fxgl.achievement.AchievementManager]
+13:53:43.691 [JavaFX Application Thread] DEBUG Engine               - width: 1200
+13:53:43.691 [JavaFX Application Thread] DEBUG Engine               - saveFileExt: .sav
+13:53:43.691 [JavaFX Application Thread] DEBUG Engine               - fontUI: VarelaRound-Regular.ttf
+13:53:43.691 [JavaFX Application Thread] DEBUG Engine               - enabledMenuItems: []
+13:53:43.707 [JavaFX Application Thread] INFO  Engine               - FXGL initialization took: 1.791 sec
+13:53:43.707 [JavaFX Application Thread] DEBUG LoopRunner           - Starting loop
+13:53:43.716 [JavaFX Application Thread] DEBUG StartupScene         - STARTUP
+13:53:43.716 [JavaFX Application Thread] DEBUG Engine               - Starting new game
+13:53:43.716 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/css/fxgl_dark.css
+13:53:43.716 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+13:53:43.733 [JavaFX Application Thread] DEBUG MainWindow           - StartupScene -> LoadingScene
+13:53:43.741 [JavaFX Application Thread] DEBUG Engine               - Removing overlay from StartupScene and adding to LoadingScene
+13:53:43.747 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Clearing previous game
+13:53:43.747 [FXGL Background Thread 1 ] DEBUG GameWorld            - Clearing game world
+13:53:43.748 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Clearing physics world
+13:53:43.748 [FXGL Background Thread 1 ] DEBUG GameScene            - Clearing game scene
+13:53:43.748 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Game
+13:53:43.751 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from disk: /assets/textures/background.png
+13:53:44.013 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from disk: /assets/textures/player2_still.png
+13:53:44.027 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Physics
+13:53:44.027 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing UI
+13:53:44.030 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initialization Complete
+13:53:44.031 [FXGL Background Thread 1 ] INFO  InitAppTask          - Game initialization took: 0.284 sec
+13:53:44.037 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/css/fxgl_dark.css
+13:53:44.037 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+13:53:44.052 [JavaFX Application Thread] DEBUG MainWindow           - LoadingScene -> GameScene
+13:53:44.052 [JavaFX Application Thread] DEBUG Engine               - Removing overlay from LoadingScene and adding to GameScene
+13:53:44.917 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/textures/player2.gif
+13:53:44.968 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:44.981 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:44.998 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.013 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.029 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.045 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.060 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.077 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.093 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.108 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.125 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.141 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.157 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.173 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.189 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.205 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.220 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.237 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.253 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.269 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.285 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.301 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.317 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.333 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.349 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.381 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.397 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.413 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.429 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.445 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.461 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.509 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.525 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.541 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.557 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.573 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.589 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.605 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.621 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.637 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.653 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.669 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.685 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.701 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.717 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.748 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.765 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.781 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.798 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.813 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.829 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.845 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.862 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.877 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.892 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.909 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.925 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.941 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.956 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.974 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:45.989 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.005 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.021 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.037 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.053 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.069 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.085 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.101 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.149 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.181 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.197 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.277 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.341 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.357 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.373 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.389 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.405 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.420 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.468 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.485 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.501 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.517 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.547 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.565 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.582 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.597 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.645 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.661 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.677 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.693 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.709 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.724 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.741 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.758 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.773 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.789 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.804 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.821 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.837 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.854 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.869 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.885 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.901 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.917 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.933 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.965 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.981 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:46.997 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.013 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.028 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.045 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.061 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.078 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.093 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.109 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.125 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.141 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.157 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.173 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.189 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.205 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.220 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.237 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.252 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.269 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.285 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.301 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.317 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.333 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.349 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.382 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.398 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.413 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.429 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.444 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.461 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.477 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.493 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.509 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.525 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.541 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.557 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.573 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.589 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.605 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.621 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.636 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.652 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.668 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.685 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.701 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.717 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.733 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.749 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.766 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.796 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.813 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.829 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.845 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.861 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.877 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.893 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.908 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.957 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.973 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:47.989 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.005 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.021 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.037 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.053 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.069 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.085 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.101 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.117 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.150 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.166 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.181 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.197 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.213 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.229 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.245 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.261 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.277 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.293 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.309 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.325 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.373 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.389 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.405 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.421 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.436 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.453 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.469 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.485 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.501 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.517 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.533 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.549 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.566 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.597 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.613 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.629 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.645 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.661 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.676 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.693 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.709 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.725 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.741 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.757 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.773 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.789 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.805 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.821 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.837 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.853 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.869 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.885 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.902 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.917 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.949 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.966 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.981 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:48.996 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.013 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.029 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.045 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.061 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.077 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.093 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.109 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.125 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.141 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.157 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.173 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.189 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.205 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.221 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.237 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.253 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.269 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.285 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.301 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.316 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.333 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.349 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.382 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.396 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.413 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.429 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.445 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.461 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.477 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.493 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.509 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.524 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.542 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.557 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.573 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.589 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.606 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.622 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.637 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.653 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.669 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.685 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.701 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.717 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.734 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.764 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.780 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.796 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.813 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.829 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.844 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.862 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.877 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.893 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.909 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.925 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.941 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.956 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.973 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:49.989 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.005 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.021 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.037 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.053 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.068 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.085 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.101 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.117 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.147 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.165 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.182 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.196 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.213 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.229 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.246 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.261 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.277 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.293 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.309 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.325 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.341 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.357 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.373 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.389 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.405 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.422 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.437 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.453 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.469 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.485 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.501 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.517 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.533 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.549 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.582 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.597 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.615 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.629 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.644 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.661 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.677 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.692 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.708 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.725 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.741 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.757 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.773 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.789 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.805 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.822 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.837 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.853 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.869 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.885 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.901 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.917 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.933 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.949 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.982 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:50.996 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.013 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.029 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.045 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.061 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.078 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.094 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.109 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.125 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.141 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.157 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.173 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.189 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.205 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.222 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.237 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.253 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.270 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.285 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.301 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.317 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.333 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.350 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.366 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.397 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.412 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.429 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.445 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.461 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.509 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.524 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.541 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.566 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.573 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.589 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.604 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.621 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.637 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.653 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.669 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.685 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.701 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.717 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.733 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.750 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.767 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.796 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.813 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.829 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.845 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.862 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.877 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.893 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.909 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.924 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.941 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.957 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.973 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:51.989 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.005 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.021 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.038 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.053 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.069 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.085 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.101 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.117 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.133 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.149 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.166 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.196 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.213 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.229 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.245 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.261 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.277 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.292 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.309 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.326 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.341 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.357 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.373 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.389 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.405 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.421 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.437 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.453 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.469 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.485 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.500 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.517 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.533 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.550 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.566 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.581 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.613 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.629 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.645 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.661 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.677 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.693 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.709 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.725 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.741 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.758 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.773 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.789 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.805 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.821 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.838 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.853 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.869 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.885 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.901 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.917 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.933 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.949 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.966 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:52.999 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.012 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.029 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.045 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.061 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.077 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.092 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.109 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.125 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.141 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.157 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.173 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.190 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.205 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.220 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.237 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.253 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.269 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.285 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.301 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.317 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.333 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.349 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.381 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.396 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.414 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.429 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.445 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.461 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.477 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.493 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.509 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.525 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.540 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.556 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.573 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.589 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.606 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.621 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.636 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.653 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.669 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.685 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.701 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.717 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.733 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.749 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.766 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.796 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.812 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.829 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.845 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.861 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.877 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.892 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.909 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.925 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.941 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.957 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.973 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:53.989 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.005 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.021 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.037 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.053 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.068 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.085 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.101 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.117 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.133 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.148 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.165 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.197 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.213 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.228 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.245 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.262 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.277 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.293 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.309 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.325 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.340 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.357 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.373 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.389 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.405 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.421 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.437 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.453 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.469 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.485 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.501 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.517 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.532 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.549 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.582 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.597 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.613 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.629 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.645 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.661 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.677 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.693 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.709 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.725 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.741 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.757 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.773 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.789 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.805 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.821 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.837 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.853 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.869 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.886 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.901 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.917 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.932 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.949 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.967 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:54.997 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.013 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.029 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.045 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.061 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.077 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.093 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.108 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.124 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.141 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.158 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.173 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.189 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.205 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.221 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.238 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.253 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.269 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.285 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.301 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.317 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.333 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.349 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.365 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.382 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.412 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.429 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.445 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.462 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.478 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.493 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.509 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.525 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.541 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.557 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.573 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.590 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.605 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.621 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.637 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.653 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.669 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.685 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.701 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.718 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.733 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.749 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.765 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.797 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.813 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.829 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.845 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.861 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.957 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.973 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:55.989 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.005 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.021 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.037 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.053 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.069 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.084 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.101 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.117 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.133 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.149 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.166 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.197 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.212 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.229 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.245 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.261 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.276 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.293 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.309 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.326 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.341 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.357 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.372 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.389 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.405 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.421 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.437 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.453 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.469 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.485 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.501 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.517 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.533 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.549 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.566 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.582 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.598 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.629 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.645 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.661 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.677 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.693 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.709 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.724 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.741 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.757 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.774 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.789 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.805 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.821 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.837 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.853 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.869 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.884 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.900 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.917 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.933 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.949 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.966 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:56.981 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.013 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.029 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.045 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.060 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.078 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.093 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.109 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.125 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.141 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.157 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.173 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.189 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.205 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.221 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.237 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.253 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.269 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.284 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.301 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.317 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.334 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.349 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.365 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.381 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.413 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.429 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.445 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.461 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.477 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.493 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.509 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.525 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.541 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.557 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.573 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.589 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.605 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.621 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.637 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.653 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.669 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.684 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.701 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.717 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.733 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.750 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.765 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.782 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.812 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.829 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.845 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.861 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.878 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.893 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.909 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.925 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.940 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.957 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.973 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:57.988 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.004 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.021 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.037 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.053 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.069 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.085 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.101 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.117 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.132 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.148 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.166 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.197 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.213 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.229 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.245 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.261 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.276 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.293 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.309 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.325 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.340 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.356 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.374 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.389 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.405 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.421 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.437 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.453 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.469 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.484 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.501 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.517 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.533 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.549 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.565 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.597 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.613 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.629 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.644 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.661 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.677 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.692 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2.gif
+13:53:58.705 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/textures/player2_still.png
+13:54:00.675 [JavaFX Application Thread] DEBUG MainWindow           - Push state: DialogSubState
+13:54:00.676 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+13:54:00.676 [JavaFX Application Thread] DEBUG MainWindow           - GameScene -> DialogSubState
+13:54:00.685 [JavaFX Application Thread] DEBUG Engine               - Removing overlay from GameScene and adding to DialogSubState
+13:54:02.372 [JavaFX Application Thread] DEBUG MainWindow           - Pop state: DialogSubState
+13:54:02.372 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+13:54:02.372 [JavaFX Application Thread] DEBUG Engine               - Removing overlay from DialogSubState and adding to GameScene
+13:54:02.373 [JavaFX Application Thread] DEBUG MainWindow           - GameScene <- DialogSubState
+13:54:02.373 [JavaFX Application Thread] DEBUG Engine               - Exiting FXGL
+13:54:02.373 [JavaFX Application Thread] DEBUG Engine               - Shutting down background threads
+13:54:02.373 [JavaFX Application Thread] DEBUG Engine               - Saving FXGL system data
+13:54:02.376 [JavaFX Application Thread] DEBUG MobileFSService      - Writing to: E:\JavaFX\Shovon\javagame2-1\javafx-workshop\system\fxgl.bundle
+13:54:02.382 [JavaFX Application Thread] DEBUG Engine               - Closing logger and exiting JavaFX
