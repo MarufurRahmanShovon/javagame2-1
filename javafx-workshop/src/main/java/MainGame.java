@@ -47,7 +47,7 @@ public class MainGame extends GameApplication {
     protected void initGame() {
         background = FXGL.entityBuilder()
                 .at(0,0)
-                .view("background.png")
+                .view("background.jpg")
                 .buildAndAttach();
 
         player = FXGL.entityBuilder()
@@ -80,11 +80,11 @@ public class MainGame extends GameApplication {
                 isForward=true;
                 player.setView(FXGL.getAssetLoader().loadTexture("player2.gif")); //changing the player image
 
-                if(player.getX() < 500 || background.getX() <= -2400 && player.getX()<1050){ //right bound for player///*this is not working as we expected*//
+                if(player.getX() < 500 || background.getX() <=-3900 && player.getX()<1050){ //right bound for player///*this is not working as we expected*//
                     player.translateX(4);
                 }
 
-                if(background.getX() > -2400) { //right bound for background
+                if(background.getX() > -3900) { //right bound for background
                     background.translateX(-4);
                     coin.translateX(-4);
                     coin1.translateX(-4);
